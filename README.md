@@ -23,4 +23,10 @@ We will be using Python3. The packages to be installed are in the requirements.t
 pip3 install -r requirements.txt
 ```
 
-In order to guarantee that your installation was successful, run the cell inside the notebook `dependency_tester.ipynb` (found in this repo). It should run without errors. Fix your installation setup until it does, so we can jump straight into coding during the workshop.
+In order to guarantee that your installation was successful, run the cell inside the notebook `dependency_tester.ipynb` (found in this repo). This is done using one of the tools you just installed, Jupyter. To do this, run the following command in the terminal, in the same directory as the repo's content ([https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html]()).
+
+> jupyter notebook
+
+If all goes well it should open [http://localhost:8888/notebooks/dependency_tester.ipynb]() on your browser, if not you can open it yourself.
+
+All that is left is to run `dependency_tester.ipynb` by pressing the "Run" button on the top options bar. Beware, this operation might take a couple of minutes, but should run without errors. If so, a "Great, your installation seems to be correct! No further action required." message will be printed at the bottom of the page; if not, fix your installation setup until it does, so we can jump straight into coding during the workshop.
